@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+<div class="box">123</div>
+<button id="btn">test</button>
+<script>
+  const btn = document.getElementById("btn");
+  btn.addEventListener("click", ()=>{
+    btn.disabled = true;
+    setTimeout(()=>{
+      btn.disabled = false; 
+    },1000);
+  });
+</script>
+</body>
+</html>

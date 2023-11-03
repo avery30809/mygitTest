@@ -1,0 +1,34 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #0077FF;
+    transition: all 1s ease-in-out;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box:hover {
+    background-color: red;
+    width: 200px;
+}
+button {
+    position: relative;
+    top: 20px;
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white !important;
+    text-decoration: none;
+    font-size: 15px !important;
+    padding: 0px !important;
+    margin-top: 0px !important;
+    margin-left: 5px !important;
+    background-color: rgba(220, 84, 84, 0.607);
+    color: white;
+    cursor: pointer;
+}
+button:disabled {
+    background-color: lightgray;
+    cursor:default;
+}
